@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tiger : Feline {
+public class Ape : Primate {
 
-	public bool banded;
+	public bool large;
+	public bool sleepInTrees;
 
 	void Start () {
-		print("Roar!");
+		
 	}
 	
 

@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tiger : Feline {
+public class Wolf : Canine {
 
-	public bool banded;
+	public bool alpha;
 
 	void Start () {
-		print("Roar!");
+		
 	}
 	
-
+	
 }
+
