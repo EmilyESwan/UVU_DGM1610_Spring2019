@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 100
-  jumpHeight: 100
+  jumpHeight: 150
 --- !u!212 &213775037
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -374,9 +374,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.3948638, y: 0.6839531}
   serializedVersion: 2
-  m_Radius: 0.1
+  m_Radius: 4.29908
 --- !u!114 &1286774442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,7 +424,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: c0559972a0c0a224c847a29149bfbf64, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -441,13 +441,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1286774440}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 145.9, y: 26, z: -1.3802}
-  m_LocalScale: {x: 102.17103, y: 102.17103, z: 102.17103}
+  m_LocalRotation: {x: -0, y: -0, z: -0.72604436, w: 0.6876479}
+  m_LocalPosition: {x: 144.4, y: 25.6, z: -1.3802}
+  m_LocalScale: {x: 2.00217, y: 2.00217, z: 2.00217}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -93.11201}
 --- !u!114 &1286774445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5433,6 +5433,7 @@ GameObject:
   - component: {fileID: 2039812863}
   - component: {fileID: 2039812862}
   - component: {fileID: 2039812865}
+  - component: {fileID: 2039812866}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Coin
@@ -5542,7 +5543,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2039812856}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 861c7eaa36629634f8ded3fe2fa7ec56, type: 3}
   m_Name: 
@@ -5611,6 +5612,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.002620589}
   m_Size: {x: 0.17678887, y: 0.1693013}
   m_Direction: 0
+--- !u!114 &2039812866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2039812856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef43a52125241bc4fa2a9f46be93b7a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stopLight: Yellow
+  isUtahn: 1
 --- !u!1 &2060722869
 GameObject:
   m_ObjectHideFlags: 0
