@@ -8,9 +8,17 @@ public class PlayerController : MonoBehaviour {
 	public float jumpHeight;
 	//Player grounded variables
 	private bool grounded;
+	public Transform groundCheck;
+	public float groundCheckRadius;
+	public LayerMask whatIsGround;
 
 	void Start () {
-		grounded = true;
+	
+	}
+
+	void FixedUpdate(){
+		grounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+	
 	}
 	void Update () {
 		//Moves player left and right
@@ -23,8 +31,15 @@ public class PlayerController : MonoBehaviour {
 
 		//Makes player jump
 		if(Input.GetKeyDown(KeyCode.W) && grounded){
-			GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x,jumpHeight);
+			Jump();
 		}
+
+
 	
 	}
+
+	void Jump(){
+		GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<Rigidbody2D>().velocity.x,jumpHeight);
+	}
+
 }

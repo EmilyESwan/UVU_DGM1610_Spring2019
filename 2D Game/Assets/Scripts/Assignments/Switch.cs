@@ -16,7 +16,7 @@ public class Switch : MonoBehaviour {
 	
 	void MurderMystery (string person) {
 
-		switch(person && tool){
+		switch(person){
 			case "Mr. Ketchup":
 			case "Mr. Radish":
 				print("I was in the billiad room smoking a cigar and playing pool");
