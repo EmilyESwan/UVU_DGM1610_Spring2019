@@ -741,7 +741,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1286774440}
   m_LocalRotation: {x: -0, y: -0, z: -0.72604436, w: 0.6876479}
-  m_LocalPosition: {x: 144.4, y: 25.6, z: -1.3802}
+  m_LocalPosition: {x: 327.6, y: 26.3, z: -1.3802}
   m_LocalScale: {x: 2.00217, y: 2.00217, z: 2.00217}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5811,6 +5811,7 @@ GameObject:
   - component: {fileID: 2039812867}
   - component: {fileID: 2039812868}
   - component: {fileID: 2039812869}
+  - component: {fileID: 2039812870}
   m_Layer: 8
   m_Name: GameObject
   m_TagString: Coin
@@ -6032,7 +6033,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2039812856}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85dc50cb5fb63ec4e8d7f75976bb43a3, type: 3}
   m_Name: 
@@ -6049,6 +6050,43 @@ MonoBehaviour:
   - Jake
   - Sarah
   santasList: []
+--- !u!114 &2039812870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2039812856}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec0ef0fb2bb7e5845a6daf940de86fe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  girl1: Michelle
+  girl2: Jennifer
+  girl3: Diane
+  girl4: Stacy
+  girl5: Erin
+  girl6: Haley
+  girls:
+  - Michelle
+  - Jennifer
+  - Diane
+  - Stacy
+  - Erin
+  - Haley
+  boy1: Jerry
+  boy2: Kyle
+  boy3: George
+  boy4: Larry
+  boy5: Mason
+  boy6: Bob
+  boys:
+  - Jerry
+  - Kyle
+  - George
+  - Larry
+  - Mason
+  - Bob
 --- !u!1 &2060722869
 GameObject:
   m_ObjectHideFlags: 0
@@ -6269,7 +6307,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2123384534}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 172.5, y: 23.6, z: 0}
+  m_LocalPosition: {x: 190.4, y: 23.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
