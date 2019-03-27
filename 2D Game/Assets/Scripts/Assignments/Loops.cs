@@ -14,10 +14,26 @@ public class Loops : MonoBehaviour {
 			// 	print(i+" bottles of whatever you want on the wall");
 			// }
 
-			while(bottles <= 100){
-				print(bottles +" bottles of whatever on the wall");
-				bottles++;
-			}
+			// while(bottles <= 100){
+			// 	print(bottles +" bottles of whatever on the wall");
+			// 	bottles++;
+			// }
+			// bool shouldContinue = false;
+
+			//Do Loop
+			// do{
+			// 	print("Hello World");
+			// }while(shouldContinue == true);
+			
+			//ForEach Loop
+			// string[] strings = new string[3];
+			// strings[0]="First string";
+			// strings[1]="Second string";
+			// strings[2]="Third string";
+
+			// foreach(string item in strings){
+			// 	print(item);
+			// }
 	}
 	
 	// Update is called once per frame
