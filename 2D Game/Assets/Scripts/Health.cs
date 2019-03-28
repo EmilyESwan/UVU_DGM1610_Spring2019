@@ -8,7 +8,7 @@ public class Health : MonoBehaviour {
 	public static int health;
 
 	Text healthText;
-	// Use this for initialization
+
 	void Start () {
 		healthText = GetComponent<Text>();
 
@@ -17,15 +17,11 @@ public class Health : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (health <= 0)
-		// go to game over scene
-		
+		if (health < 0)
+			health = 0;
+	
 		healthText.text = " " + health;
 		
-		}
-
-	public static void AddPoints (int pointsToRemove){
-		health -= pointsToRemove;
 	}
 		
 	
