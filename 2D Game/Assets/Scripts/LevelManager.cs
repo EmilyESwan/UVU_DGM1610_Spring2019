@@ -28,6 +28,34 @@ public class LevelManager : MonoBehaviour {
 		player = GameObject.Find("PC");
 	}
 
-
+	public void RespawnPlayer(){
+		StartCoroutine("RespawnPlayerCo");
+	}
 	
+	public IEnumerator RespawnPlayerCo(){
+		//Generate Death Particle
+		Instantiate (deathParticle, pcRigid.transform.position, pcRigid.transform.rotation);
+		//Hide PC
+		player.SetActive(false);
+		pcRigid.GetComponent<Renderer> ().enabled = false;
+		//Gravity Reset
+		gravityStore = pcRigid.GetComponent<Rigidbody2D>().gravityScale;
+		pcRigid.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+		//Point Penalty
+		ScoreManager.AddPoints(-pointPenaltyOnDeath);
+		//Debug Message
+		Debug.Log ("PC Respawn");
+		//Respawn Delay
+		yield return new WaitForSeconds (respawnDelay);
+		//Gravity Restore
+		pcRigid.GetComponent<Rigidbody2D>().gravityScale = gravityStore;
+		//Match PCs transform position
+		pcRigid.transform.position = currectCheckPoint.transform.position;
+		//Show PC
+		player.SetActive(true);
+		pcRigid.GetComponent<Renderer> ().enabled = true;
+		//Spawn PC
+		Instantiate (respawnParticle, currectCheckPoint.transform.position, currectCheckPoint.transform.rotation);
+
+	}
 }
