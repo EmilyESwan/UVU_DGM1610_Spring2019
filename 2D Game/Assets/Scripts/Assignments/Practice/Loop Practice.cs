@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class LoopPractice : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+	//For Loops
+	// for(int i=24 || int i=16){
+	// 	print (i+ " is divisible by 8");
+	// }
 		
-	}
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }
