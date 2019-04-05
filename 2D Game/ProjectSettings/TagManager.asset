@@ -39,12 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Ground
+    uniqueID: 2815858779
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: :ayer 1
+  - name: Flowers
     uniqueID: 2679925933
     locked: 0
-  - name: New Layer
+  - name: PC and Enemies
     uniqueID: 603960465
     locked: 0
