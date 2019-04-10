@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Coin
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -53,4 +54,7 @@ TagManager:
     locked: 0
   - name: PC and Enemies
     uniqueID: 603960465
+    locked: 0
+  - name: Forground
+    uniqueID: 652920873
     locked: 0

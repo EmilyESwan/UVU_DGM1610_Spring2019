@@ -34,6 +34,12 @@ public class PlayerController : MonoBehaviour {
 			Jump();
 		}
 
+		//Player Flip
+		if(GetComponent<Rigidbody2D>().velocity.x > 0)
+			transform.localScale = new Vector3(182f,177f,1f);
+		else if (GetComponent<Rigidbody2D>().velocity.x < 0)
+			transform.localScale = new Vector3(-182f,177f,1f);
+
 
 	
 	}
