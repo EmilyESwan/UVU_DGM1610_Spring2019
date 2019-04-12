@@ -481,7 +481,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 213775035}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 217.7, y: 76.2, z: 0}
+  m_LocalPosition: {x: 207.1, y: 72.4, z: 0}
   m_LocalScale: {x: 182, y: 177, z: 179.18723}
   m_Children:
   - {fileID: 1035639300}
@@ -1583,8 +1583,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 755235020}
-  m_LocalRotation: {x: -0, y: -0, z: -0.04502827, w: 0.9989857}
-  m_LocalPosition: {x: 132.8, y: 22.3, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.056275036, w: 0.99841535}
+  m_LocalPosition: {x: 131.7926, y: 10.858968, z: 1}
   m_LocalScale: {x: 1.9685, y: 1.9685, z: 1}
   m_Children:
   - {fileID: 341550982}
@@ -1597,7 +1597,7 @@ Transform:
   - {fileID: 1835842920}
   m_Father: {fileID: 0}
   m_RootOrder: 25
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -5.162}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -6.452}
 --- !u!50 &755235022
 Rigidbody2D:
   serializedVersion: 4
@@ -1606,13 +1606,13 @@ Rigidbody2D:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 755235020}
   m_BodyType: 0
-  m_Simulated: 0
+  m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 702.83954
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 10
+  m_GravityScale: 20
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1667,8 +1667,9 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.10987373, y: -4.598013}
-      - {x: 14.420127, y: -3.3508587}
+    - - {x: 0.099247895, y: -4.910723}
+      - {x: 14.352219, y: -3.266558}
+      - {x: 16.875006, y: -2.2598453}
       - {x: 19.201572, y: -1.245778}
       - {x: 17.98835, y: 0.34016722}
       - {x: 15.882745, y: 3.4810114}
@@ -1684,7 +1685,7 @@ PolygonCollider2D:
       - {x: -4.4568167, y: -1.7585741}
       - {x: -2.943817, y: -2.0687385}
       - {x: -0.95596576, y: -1.6724659}
-      - {x: -1.1279114, y: -4.590617}
+      - {x: -0.3884769, y: -4.433387}
 --- !u!95 &755235025
 Animator:
   serializedVersion: 3
@@ -1970,7 +1971,7 @@ GameObject:
   m_Layer: 0
   m_Name: WallCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2168,7 +2169,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1139881491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 595.5, y: 44.4, z: -0.16796875}
+  m_LocalPosition: {x: 595.5, y: -22.3, z: -0.16796875}
   m_LocalScale: {x: 10.522663, y: 5.144367, z: 4.9945316}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7623,7 +7624,7 @@ GameObject:
   m_Layer: 0
   m_Name: EdgeCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7634,7 +7635,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1835842919}
   m_LocalRotation: {x: -0, y: -0, z: 0.04502827, w: 0.9989857}
-  m_LocalPosition: {x: -9.39, y: -4.12, z: 6.85903}
+  m_LocalPosition: {x: -10.3, y: -4.2, z: 6.85903}
   m_LocalScale: {x: 1.016002, y: 1.016002, z: 0.508001}
   m_Children: []
   m_Father: {fileID: 755235021}
@@ -8407,7 +8408,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2060722869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 99.93, y: 50.56, z: -0.16796875}
+  m_LocalPosition: {x: 130.8, y: -21.8, z: -0.16796875}
   m_LocalScale: {x: 13.153329, y: 5.3940945, z: 4.9945316}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8425,18 +8426,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 16.787994, y: -12.320393}
+  m_Offset: {x: 16.787994, y: -2.1555228}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 40.319996, y: 30.24}
+    oldSize: {x: 39.519997, y: 21.2}
     newSize: {x: 0.16, y: 0.16}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 73.89601, y: 5.5992126}
+  m_Size: {x: 73.89601, y: 12.065185}
   m_EdgeRadius: 0
 --- !u!1 &2099391089
 GameObject:
