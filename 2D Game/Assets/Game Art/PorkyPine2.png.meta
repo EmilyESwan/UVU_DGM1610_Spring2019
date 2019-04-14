@@ -101,8 +101,8 @@ TextureImporter:
       name: PorkyPine2_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 537
+        x: 124
+        y: 795
         width: 778
         height: 647
       alignment: 9
@@ -118,35 +118,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PorkyPine2_1
-      rect:
-        serializedVersion: 2
-        x: 850
-        y: 1050
-        width: 12
-        height: 57
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ceafdad627b37444857b6846d48ca76
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PorkyPine2_2
       rect:
         serializedVersion: 2
-        x: 862
-        y: 830
+        x: 990
+        y: 946
         width: 2117
         height: 1058
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4625503, y: 0.50810105}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,121 +178,21 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PorkyPine2_5
-      rect:
-        serializedVersion: 2
-        x: 1417
-        y: 543
-        width: 32
-        height: 8
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 59b43e64c8fd853409ac123c7787c0a3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: PorkyPine2_6
       rect:
         serializedVersion: 2
-        x: 2186
-        y: 204
+        x: 2191
+        y: 275
         width: 456
         height: 357
       alignment: 9
-      pivot: {x: 0.27010894, y: 0.81850797}
+      pivot: {x: 0.47537017, y: 0.9907994}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 104770334c1abad42976fe29cfb59ce9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PorkyPine2_7
-      rect:
-        serializedVersion: 2
-        x: 1289
-        y: 535
-        width: 10
-        height: 5
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 793db32e1ee9f7d4ab44f4618a13f8bb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PorkyPine2_8
-      rect:
-        serializedVersion: 2
-        x: 1346
-        y: 514
-        width: 10
-        height: 13
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fc50fbe71dff424f835bb7a7a5dbe68
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PorkyPine2_9
-      rect:
-        serializedVersion: 2
-        x: 2343
-        y: 525
-        width: 4
-        height: 4
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b2d848a60706e04e9a9e3f8d3d2ca42
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PorkyPine2_10
-      rect:
-        serializedVersion: 2
-        x: 1325
-        y: 487
-        width: 9
-        height: 11
-      alignment: 9
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54d55e2772f348f459b140da17f06354
       vertices: []
       indices: 
       edges: []
@@ -361,10 +241,10 @@ TextureImporter:
       name: PorkyPine2_13
       rect:
         serializedVersion: 2
-        x: 1187
-        y: 144
-        width: 284
-        height: 299
+        x: 1213
+        y: 314
+        width: 310
+        height: 312
       alignment: 9
       pivot: {x: 0.85187626, y: 0.94121623}
       border: {x: 0, y: 0, z: 0, w: 0}
