@@ -3,17 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
+
 	//Player movement variables
 	public float moveSpeed;
 	public float jumpHeight;
+
 	//Player grounded variables
 	private bool grounded;
 	public Transform groundCheck;
 	public float groundCheckRadius;
 	public LayerMask whatIsGround;
 
+	public Animator animator;
 	void Start () {
-	
+		//Animator reset
+		animator.SetBool("isWalking", false);
+		animator.SetBool("isJumping", false);
 	}
 
 	void FixedUpdate(){
@@ -21,17 +26,38 @@ public class PlayerController : MonoBehaviour {
 	
 	}
 	void Update () {
+		
+		if(grounded){
+			animator.SetBool("isJumping",false);
+		}
+
 		//Moves player left and right
 		if(Input.GetKey(KeyCode.D)){
 			GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
-		}
-		else if(Input.GetKey(KeyCode.A)){
-			GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+			animator.SetBool("isWalking", true);
 		}
 
+		else if(Input.GetKeyUp (KeyCode.D)){
+			animator.SetBool("isWalking" = false);
+		}
+		
+		if(Input.GetKey(KeyCode.A)){
+			GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
+			animator.SetBool("isWalking", true);
+		}
+
+		else if (Input.GetKeyUp(KeyCode.A)){
+			animator.SetBool("isWalking" = false);
+		}
+
+	
 		//Makes player jump
 		if(Input.GetKeyDown(KeyCode.W) && grounded){
 			Jump();
+			animator.SetBool("isJumping", true);
+		}
+		else if(Input.GetKeyUp(KeyCode.W)){
+			animator.SetBool("isJumping" = false);
 		}
 
 		//Player Flip
