@@ -20,9 +20,9 @@ public class PlayerController : MonoBehaviour {
 
 	public Animator animator;
 	void Start () {
-		//Animator reset
-		//animator.SetBool("isWalking", false);
-		//animator.SetBool("isJumping", false);
+		// Animator reset;
+		// animator.SetBool("isWalking", false);
+		// animator.SetBool("isJumping", false);
 	}
 
 	void FixedUpdate(){
@@ -37,10 +37,7 @@ public class PlayerController : MonoBehaviour {
 			//animator.SetBool("isJumping",false);
 		}
 
-		//Non-Slide Player
-		//moveVelocity = 0f
-
-		if(Input.GetKeyDown (KeyCode.Space) && !doubleJump && !grounded){
+		if(Input.GetKeyDown(KeyCode.Space) && !doubleJump && !grounded){
 			Jump();
 			doubleJump = true;
 		}
@@ -49,17 +46,17 @@ public class PlayerController : MonoBehaviour {
 		moveVelocity = 0f;
 
 		//Moves player left and right
-		if(Input.GetKey(KeyCode.D)){
+		if(Input.GetKeyDown(KeyCode.D)){
 			// GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			moveVelocity = moveSpeed;
 			//animator.SetBool("isWalking", true);
 		}
 
 		else if(Input.GetKeyUp (KeyCode.D)){
-			// animator.SetBool("isWalking" = false);
+			//animator.SetBool("isWalking" = false);
 		}
 		
-		if(Input.GetKey(KeyCode.A)){
+		if(Input.GetKeyDown(KeyCode.A)){
 			// GetComponent<Rigidbody2D>().velocity = new Vector2(-moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
 			moveVelocity = -moveSpeed;
 			//animator.SetBool("isWalking", true);
@@ -82,15 +79,15 @@ public class PlayerController : MonoBehaviour {
 			//animator.SetBool("isJumping", true);
 		}
 		
-		// else if(Input.GetKeyUp(KeyCode.W)){
+		else if(Input.GetKeyUp(KeyCode.W)){
 			//animator.SetBool("isJumping" = false);
-		// }
+		}
 
 		//Player Flip
 		if(GetComponent<Rigidbody2D>().velocity.x > 0)
-			transform.localScale = new Vector3(182f,177f,1f);
+			transform.localScale = new Vector3(3.5f,3.5f,1f);
 		else if (GetComponent<Rigidbody2D>().velocity.x < 0)
-			transform.localScale = new Vector3(-182f,177f,1f);
+			transform.localScale = new Vector3(-3.5f,3.5f,1f);
 
 
 	

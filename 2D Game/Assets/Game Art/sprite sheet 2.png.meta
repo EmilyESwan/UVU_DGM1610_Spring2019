@@ -102,7 +102,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1391
-        y: 1842
+        y: 1838
         width: 398
         height: 1103
       alignment: 0
@@ -113,26 +113,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 63643c82945175f4583b172553e1c5ab
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_2
-      rect:
-        serializedVersion: 2
-        x: 2378
-        y: 2937
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b317868ca3ce894ca33653d60107d66
       vertices: []
       indices: 
       edges: []
@@ -173,26 +153,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2208a70d803e6954fa9e0c6e7cc9b045
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_6
-      rect:
-        serializedVersion: 2
-        x: 1387
-        y: 2025
-        width: 5
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc9fe22519f4d0348bc73a393dbb074f
       vertices: []
       indices: 
       edges: []
@@ -241,10 +201,10 @@ TextureImporter:
       name: Jump 2
       rect:
         serializedVersion: 2
-        x: 1292
-        y: 133
-        width: 546
-        height: 1435
+        x: 1178
+        y: 126
+        width: 669
+        height: 1457
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,46 +213,6 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d68817a900d16f0418fa7aa0c5fbacdb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_12
-      rect:
-        serializedVersion: 2
-        x: 1406
-        y: 116
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f28a8bdb47a845f46b3ea2ad53118882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite sheet 2_13
-      rect:
-        serializedVersion: 2
-        x: 1234
-        y: 73
-        width: 12
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 483ff96b0f332e6459723087c83b51a7
       vertices: []
       indices: 
       edges: []
