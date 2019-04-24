@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour {
 			animator.SetBool("isJumping",false);
 		}
 
-		if(Input.GetKeyDown (KeyCode.Space) && !doubleJump && !grounded){
+		if(Input.GetKeyDown (KeyCode.W) && !doubleJump && !grounded){
 			Jump();
 			doubleJump = true;
 		}
