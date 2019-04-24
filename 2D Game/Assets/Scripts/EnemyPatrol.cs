@@ -14,10 +14,11 @@ public class EnemyPatrol : MonoBehaviour {
 	public LayerMask whatIsWall;
 	private bool hittingWall;
 
+
 	//Edge Check
 	private bool notAtEdge;
 	public Transform edgeCheck;
-	
+		
 	// Update is called once per frame
 	void Update () {
 		notAtEdge = Physics2D.OverlapCircle(edgeCheck.position, wallCheckRadius, whatIsWall);
