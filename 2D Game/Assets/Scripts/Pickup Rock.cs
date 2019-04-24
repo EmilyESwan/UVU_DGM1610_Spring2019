@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class PickupRock : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	void Start(){
+		GameObject PC = GameObject.Find("PC");
+		PlayerShoot playerShoot = PC.GetComponent<PlayerShoot>();
+
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	void OnTriggerEnter2D(Collider2D other){
+		if(other == "Player"){
+			Destroy(gameObject);
+			PlayerShoot.haveRock = true;
+		}
 	}
 }

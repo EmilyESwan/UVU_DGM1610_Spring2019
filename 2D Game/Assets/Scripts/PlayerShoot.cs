@@ -5,7 +5,9 @@ using UnityEngine;
 public class PlayerShoot : MonoBehaviour {
 	public Transform firePoint;
 	public GameObject projectile;
+	public bool haveRock;
 	// Use this for initialization
+
 	void Start () {
 		//Load projectile from Resources/Prefabs folder
 		projectile = Resources.Load("Prefabs/Projectile") as GameObject;
@@ -13,7 +15,7 @@ public class PlayerShoot : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyDown(KeyCode.RightControl))
+		if(Input.GetKeyDown(KeyCode.Space) && haveRock)
 			Instantiate(projectile,firePoint.position,firePoint.rotation);
 	}
 }
